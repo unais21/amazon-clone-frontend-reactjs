@@ -1,0 +1,205 @@
+.navbar {
+    background-color: rgb(19, 25, 33);
+    padding: 5px;
+
+
+}
+
+.nav {
+    display: flex;
+    background-color: rgb(19, 25, 33);
+    padding: 5px;
+    height: 50px;
+   
+}
+
+.amazoneLogo {
+    width: 90%;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+.navbar input {
+    width: 50%;
+    margin: 1px;
+    margin-left: 20px;
+    border-radius: 3px;
+    border: none;
+    padding: 8px;
+    outline: none;
+    height: 28px;
+}
+
+.navbar button {
+    background-color: rgb(254, 189, 105);
+    margin: 1px;
+    margin-left: -20px;
+    border: none;
+    width: 5%;
+    height: 44px;
+
+
+}
+
+.navbar button img {
+    width: 23px;
+}
+
+p {
+    color: white;
+    font-size: 13px;
+    
+}
+
+.accounTxt {
+    font-size: 16px;
+}
+
+/* .returnsText{
+    margin-left: 20px;
+}
+.signInText{
+    margin-left: 30px;
+} */
+.basketImage {
+    width: 100%;
+    height: 40px;
+}
+
+.navbarBottam {
+    background-color: rgb(35, 47, 62);
+    padding: 10px;
+    display: flex;
+    height: 20px;
+    align-items: center;
+}
+
+.navbarBottam img {
+    width: 20px;
+}
+
+.navbarBottam h4 {
+    color: white;
+    margin-left: 8px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.navbarBottam p {
+    margin-left: 18px;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.signUpCard h2 {
+    font-weight: normal;
+}
+
+.signUpCard p {
+    color: black;
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.signUpCard p a {
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.basketDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-left: 10px; */
+    width: 11%;
+    margin-bottom: 10px;
+}
+
+.basketDiv p {
+    font-size: 14px;
+    margin-top: 5px;
+
+
+}
+
+
+.humBurgerDiv {
+    display: none;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 5%;
+}
+.humBurgerDiv img {
+    width: 100%;
+}
+
+.mediaNav{
+    display: flex;
+    background-color: rgb(19, 25, 33);
+    padding: 5px;
+    height: 250px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.navRight{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 32%;
+
+}
+
+@media(max-width:960px) {
+    .navbar input {
+        width: 45%;
+    }
+
+    .accounTxt {
+        font-size: 12px;
+    }
+
+}
+
+
+@media(max-width:527px) {
+    .humBurgerDiv {
+        display: flex;
+        margin-top: 10px;
+    }
+    .nav {
+        display: none;
+    }
+
+    .mediaNav button{
+        width: 10%;
+        border-radius: 5px;
+        display: block;
+        margin: auto;
+        margin-top: 5px;
+    }
+    .mediaNav input{
+          margin-top: 20px;
+          margin-bottom: 10px;
+    }
+    .navRight{
+        width: 80%;
+    }
+
+
+
+}
+
+
+@media(max-width:462px){
+    .navbarBottam h4{
+        font-size: 8px;
+        margin-left: 2px;
+     
+    }
+
+}

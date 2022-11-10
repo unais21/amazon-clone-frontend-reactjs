@@ -1,0 +1,88 @@
+
+.BasketproductCard{
+    padding: 10px;
+    width: 99%;
+    /* margin-left: 10px;
+    margin-bottom: 100px; */
+    display: flex;
+    flex-direction: row;
+    border-radius: 3px;
+    margin-top: 20px;
+
+
+}
+.BasketproductImage{
+    width: 90%;
+    
+}
+.BasketProductInfo{
+    width: 70%;
+}
+.BasketproductName{
+    width: 78%;
+    margin-top: 20px;
+}
+.BasketproductStars{
+    display: flex;
+    margin-top: 10px;
+    width: 20%;
+
+    
+}
+.BasketproductStar{
+    color: rgb(179, 179, 7);
+    font-size: 16px;
+    text-align: right;
+}
+.BasketproductContainer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.BasketproductContainer button{
+    background-color: rgb(239,191,72);
+    padding: 8px;
+    width: 100%;
+    /* border: 1px solid grey; */
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+
+}
+.BasketproductPrice{
+    margin-top: 15px;
+    width: 20%;
+}
+.BasketproductBtnDiv{
+    margin-top: 40px;
+    width: 30%;
+}
+.BasketproductDesc{
+    margin-top: 10px;
+    width: 80%;
+}
+.BasketproductImageDiv{
+    width: 30%;
+}
+
+@media(max-width:630px){
+    .BasketproductContainer button{
+        font-size: 12px;
+    }
+}
+
+@media(max-width:576px){
+    .BasketproductContainer{
+        flex-direction: column;
+    }
+    .BasketproductBtnDiv{
+        width: 96%;
+    }
+    .BasketproductCard{
+        flex-direction: column;
+        align-items: center;
+    }
+    .BasketProductInfo{
+        width: 90%;
+    }
+}

@@ -1,0 +1,64 @@
+
+.productCard{
+    background-color: white;
+    padding: 10px;
+    width: 90%;
+    margin-left: 10px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+
+
+}
+.productImage{
+    width: 50%;
+    height: 150px;
+}
+.productImageDiv{
+    display: flex;
+    justify-content: center;
+}
+.productName{
+    width: 70%;
+    height: 40px;
+    margin-top: 20px;
+}
+.productStars{
+    display: flex;
+    margin-top: 10px;
+
+    
+}
+.productStar{
+    color: rgb(179, 179, 7);
+    font-size: 16px;
+    text-align: right;
+}
+.productContainer{
+    margin-left: 50px;
+}
+.productContainer button{
+    background-color: rgb(239,191,72);
+    padding: 8px;
+    width: 80%;
+    /* border: 1px solid grey; */
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+
+}
+.productPrice{
+    margin-top: 15px;
+}
+.basketBtnDiv{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+
+}
+.productDesc{
+    margin-top: 10px;
+    width: 80%;
+    height: 50px;
+}

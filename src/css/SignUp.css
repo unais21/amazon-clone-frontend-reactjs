@@ -1,0 +1,43 @@
+.amazonBlackLogo{
+    width: 10%;
+    margin-top: 20px;
+}
+.signUpContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.signUpCard{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    background-color: white;
+    padding: 15px;
+    width: 30%;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+   
+}
+.signUpCard label{
+    margin-top: 12px;
+    font-weight: bold;
+    font-size: 14px;
+
+}
+.signUpCard input{
+    padding: 6px;
+    outline: none;
+    border-radius: 3px;
+    border: 1px solid rgb(173, 173, 173);
+    
+}
+.signUpCard button{
+    margin-top: 15px;
+    padding: 8px;
+    margin-bottom: 10px;
+    background-color: rgb(254,189,105);
+    border-radius: 3px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}

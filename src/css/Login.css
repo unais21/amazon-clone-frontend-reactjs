@@ -1,0 +1,54 @@
+.amazonBlackLogo{
+    width: 10%;
+    margin-top: 20px;
+}
+.LoginContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.LoginCard{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    background-color: white;
+    padding: 15px;
+    width: 30%;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+   
+}
+.LoginCard label{
+    margin-top: 12px;
+    font-weight: bold;
+    font-size: 14px;
+
+}
+.LoginCard input{
+    padding: 6px;
+    outline: none;
+    border-radius: 3px;
+    border: 1px solid rgb(173, 173, 173);
+    
+}
+.LoginCard button{
+    margin-top: 15px;
+    padding: 8px;
+    margin-bottom: 10px;
+    background-color: rgb(254,189,105);
+    border-radius: 3px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.LoginCard p{
+    color: black;
+    margin-top: 20px;
+}
+.LoginCard p a{
+    text-decoration: none;
+
+}
+.LoginCard h2{
+    font-weight: normal;
+}

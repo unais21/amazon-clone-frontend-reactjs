@@ -1,0 +1,31 @@
+.paymentContainer{
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    width: 50%; 
+    background-color: white;
+    padding: 50px;
+    border-radius: 5px;
+    /* border: 1px solid lightgrey; */
+    box-shadow: 2px 2px 25px 10px lightgrey;
+    
+}
+.paymentContainer button{
+   width: 100%; 
+    padding: 15px;
+    background-color:  rgb(99,91,255);
+    border: none;
+    border-radius: 3px;
+    margin-top: 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+    
+}
+h1{
+    text-align: center;
+    color:  rgb(99,91,255);
+    margin-top: 50px;
+    font-weight: 500;
+ 
+}
