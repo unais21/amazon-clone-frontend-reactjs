@@ -53,7 +53,7 @@ function Payment({ clientSecret }) {
     const { error } = await stripe.confirmPayment({
       elements,
       confirmParams: {
-        return_url: 'http://localhost:3000/payment_status',
+        return_url: 'https://amazon-clone32.vercel.app/payment_status',
 
 
       }
